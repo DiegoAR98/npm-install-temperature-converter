@@ -8,21 +8,23 @@ A simple npm package that converts temperatures between Celsius, Fahrenheit, and
 
 npm install unique-temperature-converter
 
-import { celsiusToFahrenheit, fahrenheitToCelsius, celsiusToKelvin, kelvinToCelsius } from 'temperature-converter';
+import { celsiusToFahrenheit, fahrenheitToCelsius, celsiusToKelvin, kelvinToCelsius } from 'unique-temperature-converter';
 
 console.log(celsiusToFahrenheit(0)); // Output: 32
 console.log(fahrenheitToCelsius(32)); // Output: 0
 console.log(celsiusToKelvin(0)); // Output: 273.15
 console.log(kelvinToCelsius(273.15)); // Output: 0
+
 
 ## For CommonJS:
 
-const { celsiusToFahrenheit, fahrenheitToCelsius, celsiusToKelvin, kelvinToCelsius } = require('temperature-converter');
+const { celsiusToFahrenheit, fahrenheitToCelsius, celsiusToKelvin, kelvinToCelsius } = require('unique-temperature-converter');
 
 console.log(celsiusToFahrenheit(0)); // Output: 32
 console.log(fahrenheitToCelsius(32)); // Output: 0
 console.log(celsiusToKelvin(0)); // Output: 273.15
 console.log(kelvinToCelsius(273.15)); // Output: 0
+
 
 ## Available Functions
 
