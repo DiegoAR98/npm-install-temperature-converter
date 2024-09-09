@@ -29,5 +29,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "temperature-converter": "^1.0.3"
+  }
 }
