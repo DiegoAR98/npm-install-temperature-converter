@@ -1,5 +1,5 @@
 {
-  "name": "npm-install-temperature-converter",
+  "name": "unique-temperature-converter",
   "version": "1.0.0",
   "description": "A simple temperature converter npm package in ES6 JavaScript that supports both import and require",
   "main": "dist/index.cjs.js",
