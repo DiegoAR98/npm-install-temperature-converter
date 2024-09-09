@@ -6,6 +6,8 @@ A simple npm package that converts temperatures between Celsius, Fahrenheit, and
 
 ## For ES6 Modules:
 
+npm install unique-temperature-converter
+
 import { celsiusToFahrenheit, fahrenheitToCelsius, celsiusToKelvin, kelvinToCelsius } from 'temperature-converter';
 
 console.log(celsiusToFahrenheit(0)); // Output: 32
