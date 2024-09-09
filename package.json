@@ -1,17 +1,33 @@
 {
   "name": "npm-install-temperature-converter",
   "version": "1.0.0",
-  "description": "Trying to build npm package in ES6 javascript",
-  "main": "index.js",
+  "description": "A simple temperature converter npm package in ES6 JavaScript that supports both import and require",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "scripts": {
+    "build:cjs": "babel src/index.js -o dist/index.cjs.js --plugins=@babel/plugin-transform-modules-commonjs",
+    "build:esm": "babel src/index.js -o dist/index.esm.js",
+    "build": "npm run build:cjs && npm run build:esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "temperature",
+    "converter",
+    "celsius",
+    "fahrenheit",
+    "kelvin",
+    "npm",
+    "es6"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
     "@babel/preset-env": "^7.25.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
